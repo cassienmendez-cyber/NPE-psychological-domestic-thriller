@@ -35,7 +35,8 @@ AI-powered system for generating complete 40-chapter psychological domestic thri
 - **docs/**: System documentation
 
 ## Workflow
-1. **Premise generation** (3-5 options)
+0. **Brain dump** (OPTIONAL) - Freeform ideation, dump all story ideas
+1. **Premise generation** (3-5 options, optionally informed by brain dump)
 2. **Story bible construction** - Full 40-chapter structure
 3. **Chapter drafting** (2-3 chapter batches)
 4. **Midpoint review** (Chapter 20) - Automated consistency check
@@ -79,12 +80,52 @@ Psychological domestic thrillers featuring:
 - "Who can I trust?" tension
 - Contemporary or recent past settings
 
+## Brain Dump (Optional Step 0)
+
+The NPE includes a **brain dump system** for freeform ideation before structured planning.
+
+### What is it?
+A messy, unstructured space to dump everything in your head about a story:
+- Random character ideas, dialogue fragments, vibes, contradictions
+- Questions, fears, excitement, half-baked twists
+- Images, scenes, setting details, themes
+- **No rules. No editing. No organizing.**
+
+### How to use it:
+1. Copy `templates/brain-dump-template.md` to your working directory
+2. Fill it with your raw story ideas (no quality control required!)
+3. Pass it to `generate-premise.py` with `--brain-dump` flag
+4. The system will analyze your brain dump and suggest compatible library elements
+
+### Integration:
+```bash
+# Create your brain dump first (manual step)
+cp templates/brain-dump-template.md brain-dump.md
+# Edit brain-dump.md with your ideas
+
+# Then generate premises informed by your brain dump
+python scripts/generate-premise.py --mode auto --count 3 --brain-dump brain-dump.md
+```
+
+The brain dump helps the AI understand:
+- What character types you're drawn to
+- The mood/vibe you're going for
+- Secrets and twists you want to explore
+- Setting preferences
+- Themes that excite you
+
+**This step is entirely optional.** You can skip it and generate premises purely from library elements.
+
+---
+
 ## Automation Scripts
 
 ### generate-premise.py
 Generates 3-5 story premise options using selected library elements.
 ```bash
 python scripts/generate-premise.py --mode auto --count 3
+# With optional brain dump:
+python scripts/generate-premise.py --mode auto --count 3 --brain-dump brain-dump.md
 # or
 python scripts/generate-premise.py --mode manual --selections selections.json
 # or

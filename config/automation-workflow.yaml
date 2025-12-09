@@ -4,6 +4,33 @@ automation_workflow:
   purpose: "End-to-end automation for 40-chapter thriller generation"
 
 workflow_stages:
+  stage_0_brain_dump:
+    id: "brain_dump"
+    name: "Brain Dump (Optional Pre-Planning)"
+    script: "none (manual creative process)"
+    automation_level: "manual"
+    user_involvement: "full"
+    description: "Freeform ideation space to dump all story ideas before structured planning"
+    inputs:
+      - "templates/brain-dump-template.md"
+      - "writer's raw ideas, fragments, questions, vibes"
+    outputs:
+      - "brain-dump.md (user creates this manually)"
+    process:
+      - "Copy brain-dump-template.md to working directory"
+      - "Fill with messy, unstructured story ideas"
+      - "No rules: fragments, contradictions, questions, all welcome"
+      - "Don't edit or organize—just dump everything out"
+      - "Use as reference for premise generation (optional)"
+    user_action: "Create brain dump document with raw story ideas"
+    estimated_time: "15 minutes - 2 hours (varies widely)"
+    notes:
+      - "This step is entirely optional"
+      - "Can be done before premise generation OR skipped entirely"
+      - "Brain dump can inform premise selection in next stage"
+      - "No structure required—purposefully messy"
+      - "Can be revisited and updated throughout process"
+
   stage_1_premise_generation:
     id: "premise_generation"
     name: "Premise Generation"
@@ -15,10 +42,12 @@ workflow_stages:
       - "config/narrative-physics-config.yaml"
       - "library/* (all elements)"
       - "user preferences (selection mode: auto/manual/hybrid)"
+      - "brain-dump.md (optional reference)"
     outputs:
       - "premise_options.json"
     process:
       - "Load library elements"
+      - "Optionally read brain dump for inspiration/direction"
       - "Apply selection mode (auto/manual/hybrid)"
       - "Check element compatibility"
       - "Generate 3-5 complete premise options"
