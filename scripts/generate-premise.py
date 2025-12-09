@@ -29,6 +29,53 @@ def load_library_elements():
     # Return dict of all elements by category
     pass
 
+def load_brain_dump(brain_dump_path=None):
+    """Load optional brain dump file for inspiration and direction"""
+    # If brain_dump_path provided and file exists:
+    #   - Read brain-dump.md file
+    #   - Parse markdown content
+    #   - Extract key information from sections:
+    #     * THINGS I KNOW FOR SURE
+    #     * VIBES / MOOD / FEELING
+    #     * CHARACTERS (MESSY NOTES)
+    #     * RELATIONSHIP DYNAMICS
+    #     * SECRETS / LIES / HIDDEN THINGS
+    #     * POSSIBLE TWISTS / REVEALS
+    #     * SETTING FRAGMENTS
+    #     * WHAT EXCITES ME
+    #   - Return brain_dump dict with extracted themes and preferences
+    # If no brain dump provided or file doesn't exist:
+    #   - Return None
+    #
+    # Brain dump informs premise generation by:
+    #   - Suggesting character archetypes that match described characters
+    #   - Identifying tropes that align with stated vibes/mood
+    #   - Incorporating mentioned secrets/twists into premise
+    #   - Matching setting preferences
+    #   - Prioritizing elements the writer is excited about
+    pass
+
+def analyze_brain_dump_for_elements(brain_dump, library):
+    """Analyze brain dump to suggest compatible library elements"""
+    # If brain_dump is None, return empty suggestions
+    # Parse brain dump content for keywords and themes
+    # Match to library elements:
+    #   - Character descriptions → suggest protagonist/antagonist archetypes
+    #   - Mood/vibes → suggest compatible tropes
+    #   - Mentioned secrets → suggest secret types
+    #   - Setting details → suggest setting elements
+    #   - Relationship notes → suggest relationship dynamics
+    # Return suggestions dict with recommended elements
+    # Example:
+    # {
+    #   "suggested_protagonist": ["anxious-everywoman", "new-mother"],
+    #   "suggested_antagonist": ["charming-manipulator", "hidden-psychopath"],
+    #   "suggested_tropes": ["gaslighting", "perfect-facade"],
+    #   "suggested_setting": {"location_type": "suburban", "mood": "claustrophobic"},
+    #   "priority_themes": ["trust erosion", "maternal instinct", "hidden danger"]
+    # }
+    pass
+
 def check_compatibility(elements):
     """Check if selected elements are compatible with each other"""
     # For each element, check Compatible Elements section
@@ -99,20 +146,40 @@ def main():
     #   --mode: auto|manual|hybrid
     #   --selections: path to JSON file with user selections (if manual/hybrid)
     #   --count: number of premises to generate (default 3)
+    #   --brain-dump: path to brain dump file (optional)
 
     # Load configuration
     # Load library elements
 
+    # Load brain dump if provided (OPTIONAL)
+    # brain_dump = load_brain_dump(brain_dump_path)
+    # if brain_dump:
+    #     print("Brain dump loaded! Using your ideas to inform premise generation...")
+    #     suggestions = analyze_brain_dump_for_elements(brain_dump, library)
+    #     print(f"Detected themes: {suggestions.get('priority_themes', [])}")
+    #     print(f"Suggested protagonist types: {suggestions.get('suggested_protagonist', [])}")
+    #     print(f"Suggested mood/tropes: {suggestions.get('suggested_tropes', [])}")
+    #     # Use suggestions to bias element selection in premise generation
+    # else:
+    #     print("No brain dump provided. Generating premises from library elements only.")
+    #     suggestions = None
+
     # Generate premises based on mode:
     # if mode == 'auto':
     #     for i in range(count):
-    #         premise = generate_premise_auto(library)
+    #         # If brain dump suggestions exist, bias selection toward suggested elements
+    #         premise = generate_premise_auto(library, suggestions)
     #         premises.append(premise)
     # elif mode == 'manual':
+    #     # Brain dump can inform manual selections
+    #     if suggestions:
+    #         print("\nBrain dump suggestions to consider for manual selection:")
+    #         print(f"  - {suggestions}")
     #     premise = generate_premise_manual(user_selections)
     #     premises.append(premise)
     # elif mode == 'hybrid':
-    #     premise = generate_premise_hybrid(user_selections, library)
+    #     # Brain dump informs both user selections and AI fills
+    #     premise = generate_premise_hybrid(user_selections, library, suggestions)
     #     premises.append(premise)
 
     # Save premises to file
@@ -125,10 +192,16 @@ def main():
 if __name__ == "__main__":
     main()
 
+# Example usage with brain dump:
+# python generate-premise.py --mode auto --count 3 --brain-dump brain-dump.md
+#
 # Example output format:
 # {
 #     "timestamp": "2025-01-15T10:30:00",
 #     "mode": "auto",
+#     "brain_dump_used": true,
+#     "brain_dump_path": "brain-dump.md",
+#     "detected_themes": ["maternal instinct", "trust erosion", "hidden danger"],
 #     "premises": [
 #         {
 #             "id": 1,
@@ -138,7 +211,8 @@ if __name__ == "__main__":
 #             "antagonist": "charming-manipulator",
 #             "tropes": ["gaslighting", "perfect-facade"],
 #             "setting": {...},
-#             "pov_config": "single-first-person"
+#             "pov_config": "single-first-person",
+#             "brain_dump_alignment": "high"  # how well this matches brain dump themes
 #         }
 #     ],
 #     "selected": 1
