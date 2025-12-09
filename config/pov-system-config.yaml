@@ -1,0 +1,212 @@
+pov_system:
+  name: "Point of View Configuration System"
+  version: "1.0"
+  purpose: "Configure narrative voice and perspective for 40-chapter thriller structure"
+
+structures:
+  single:
+    id: "single"
+    name: "Single POV"
+    description: "One point-of-view character throughout entire narrative"
+    chapter_distribution:
+      total: 40
+      primary: 40
+      secondary: 0
+    best_for:
+      - "Unreliable narrator stories"
+      - "First-person deep psychological exploration"
+      - "Reader trapped with protagonist experience"
+      - "Paranoia and isolation themes"
+    limitations:
+      - "Cannot show antagonist perspective"
+      - "Limited dramatic irony opportunities"
+      - "Reader knowledge = protagonist knowledge"
+
+  dual:
+    id: "dual"
+    name: "Dual POV"
+    description: "Two point-of-view characters alternating throughout narrative"
+    distributions:
+      option_1:
+        ratio: "70/30"
+        primary_chapters: 28
+        secondary_chapters: 12
+        description: "Primary character dominant, secondary provides key reveals"
+      option_2:
+        ratio: "65/35"
+        primary_chapters: 26
+        secondary_chapters: 14
+        description: "Balanced with slight primary preference"
+      option_3:
+        ratio: "60/40"
+        primary_chapters: 24
+        secondary_chapters: 16
+        description: "Nearly balanced, strong dual narrative"
+    best_for:
+      - "Hunter/hunted dynamics"
+      - "Marriage/relationship thrillers"
+      - "Dramatic irony and reader knowledge advantages"
+      - "Multiple secret reveals"
+    chapter_alternation_patterns:
+      - "Every other chapter"
+      - "Clusters (3 primary, 1 secondary)"
+      - "Strategic placement for maximum tension"
+      - "Sequence-based switching"
+
+voices:
+  first_person:
+    id: "first_person"
+    name: "First Person"
+    pronouns: "I, me, my"
+    intimacy_level: "maximum"
+    strengths:
+      - "Immediate emotional connection"
+      - "Natural for unreliable narration"
+      - "Reader inside protagonist's head"
+      - "Authentic voice and internal monologue"
+      - "Perfect for paranoia and doubt"
+    weaknesses:
+      - "Limited external observation"
+      - "Difficult to describe narrator physically"
+      - "Cannot show scenes without narrator present"
+    best_character_types:
+      - "Anxious protagonist"
+      - "Paranoid narrator"
+      - "Trapped/isolated character"
+      - "Trauma survivor"
+      - "Unreliable narrator"
+    example: "I knew something was wrong the moment I walked through the door."
+
+  third_person_limited:
+    id: "third_person_limited"
+    name: "Third Person Limited"
+    pronouns: "She, he, they"
+    intimacy_level: "high"
+    strengths:
+      - "Flexibility in description"
+      - "Easier dual POV management"
+      - "Can create dramatic irony"
+      - "Professional thriller voice"
+      - "Easier to manage multiple POVs"
+    weaknesses:
+      - "Slightly less intimate than first person"
+      - "Must maintain strict POV discipline"
+    best_character_types:
+      - "Multiple suspects"
+      - "Complex plots"
+      - "Ensemble casts"
+      - "When switching between characters frequently"
+    example: "She knew something was wrong the moment she walked through the door."
+
+  third_person_close:
+    id: "third_person_close"
+    name: "Third Person Close/Deep POV"
+    pronouns: "She, he, they (very intimate)"
+    intimacy_level: "very high"
+    strengths:
+      - "Nearly as intimate as first person"
+      - "Flexibility of third person"
+      - "Strong emotional connection"
+      - "Can show physical reactions protagonist doesn't notice"
+      - "Best of both worlds"
+    weaknesses:
+      - "Requires disciplined writing"
+      - "Must stay very close to POV character"
+    best_character_types:
+      - "Deep psychological exploration"
+      - "Unreliable narrators in third person"
+      - "When you want intimacy + flexibility"
+    example: "Something was wrong. She felt it the moment she walked through the door, a prickling at the base of her neck."
+
+dual_pov_configurations:
+  protagonist_antagonist:
+    name: "Protagonist vs. Antagonist"
+    description: "Hero and villain both narrate"
+    primary: "protagonist"
+    secondary: "antagonist"
+    tension_type: "cat-and-mouse, dramatic irony"
+    chapter_ratio: "70/30 or 65/35"
+    example_stories: "You, Gone Girl"
+
+  protagonist_victim:
+    name: "Protagonist and Another Victim"
+    description: "Two people in danger, different knowledge"
+    primary: "main protagonist"
+    secondary: "secondary victim/character"
+    tension_type: "parallel danger, converging knowledge"
+    chapter_ratio: "65/35 or 60/40"
+
+  dual_protagonists:
+    name: "Two Equal Protagonists"
+    description: "Two heroes, different perspectives on same events"
+    primary: "protagonist A"
+    secondary: "protagonist B"
+    tension_type: "different interpretations, relationship dynamics"
+    chapter_ratio: "60/40 (nearly equal)"
+
+  past_present:
+    name: "Past and Present Timeline"
+    description: "One character narrates past, another present"
+    primary: "present timeline"
+    secondary: "past timeline (same or different character)"
+    tension_type: "mystery unraveling, how past affects present"
+    chapter_ratio: "70/30"
+
+voice_selection_guidelines:
+  use_first_person_when:
+    - "Story requires unreliable narrator"
+    - "Deep psychological intimacy essential"
+    - "Single POV structure"
+    - "Protagonist is anxious, paranoid, or traumatized"
+    - "Reader should question reality with protagonist"
+
+  use_third_limited_when:
+    - "Dual POV structure"
+    - "Multiple suspects/characters"
+    - "Need dramatic irony"
+    - "Complex plot with many moving parts"
+    - "Professional thriller tone"
+
+  use_third_close_when:
+    - "Want first-person intimacy with third-person flexibility"
+    - "Dual POV with deep emotional connection"
+    - "Psychological depth + narrative maneuverability"
+
+chapter_distribution_examples:
+  dual_70_30:
+    total_chapters: 40
+    primary_chapters: 28
+    secondary_chapters: 12
+    pattern: "Primary character dominant, secondary provides strategic reveals"
+    sequence_breakdown:
+      sequence_1: "5 primary (chapters 1-5)"
+      sequence_2: "4 primary, 1 secondary (chapters 6-10)"
+      sequence_3: "4 primary, 1 secondary (chapters 11-15)"
+      sequence_4: "3 primary, 2 secondary (chapters 16-20)"
+      sequence_5: "3 primary, 2 secondary (chapters 21-25)"
+      sequence_6: "3 primary, 2 secondary (chapters 26-30)"
+      sequence_7: "5 primary, 2 secondary (chapters 31-37)"
+      sequence_8: "1 primary, 2 secondary (chapters 38-40)"
+
+  dual_60_40:
+    total_chapters: 40
+    primary_chapters: 24
+    secondary_chapters: 16
+    pattern: "Nearly balanced dual narrative"
+    sequence_breakdown:
+      sequence_1: "3 primary, 2 secondary (chapters 1-5)"
+      sequence_2: "3 primary, 2 secondary (chapters 6-10)"
+      sequence_3: "3 primary, 2 secondary (chapters 11-15)"
+      sequence_4: "3 primary, 2 secondary (chapters 16-20)"
+      sequence_5: "3 primary, 2 secondary (chapters 21-25)"
+      sequence_6: "3 primary, 2 secondary (chapters 26-30)"
+      sequence_7: "4 primary, 3 secondary (chapters 31-37)"
+      sequence_8: "2 primary, 1 secondary (chapters 38-40)"
+
+implementation_notes:
+  consistency: "Maintain chosen POV voice consistently throughout"
+  voice_distinction: "Each POV character should have distinct voice, vocabulary, rhythm"
+  chapter_headers: "Mark POV clearly at chapter start"
+  transition_clarity: "Make POV switches clear to reader"
+  knowledge_tracking: "Track what each POV character knows/doesn't know"
+  avoid_head_hopping: "Never switch POV within a chapter"

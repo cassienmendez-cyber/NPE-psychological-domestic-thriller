@@ -1,0 +1,331 @@
+automation_workflow:
+  name: "Narrative Physics Engine - Automated Workflow"
+  version: "1.0"
+  purpose: "End-to-end automation for 40-chapter thriller generation"
+
+workflow_stages:
+  stage_1_premise_generation:
+    id: "premise_generation"
+    name: "Premise Generation"
+    script: "scripts/generate-premise.py"
+    automation_level: "semi-automated"
+    user_involvement: "selection"
+    description: "Generate 3-5 story premise options for user selection"
+    inputs:
+      - "config/narrative-physics-config.yaml"
+      - "library/* (all elements)"
+      - "user preferences (selection mode: auto/manual/hybrid)"
+    outputs:
+      - "premise_options.json"
+    process:
+      - "Load library elements"
+      - "Apply selection mode (auto/manual/hybrid)"
+      - "Check element compatibility"
+      - "Generate 3-5 complete premise options"
+      - "Present to user for selection"
+    user_action: "Select one premise from options"
+    estimated_time: "2-5 minutes"
+
+  stage_2_bible_construction:
+    id: "bible_construction"
+    name: "Story Bible & Beat Sheet Construction"
+    script: "scripts/build-story-bible.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "Build complete story infrastructure from selected premise"
+    inputs:
+      - "selected premise (from stage 1)"
+      - "library elements (referenced in premise)"
+      - "config files"
+    outputs:
+      - "books/[book-name]/story-bible.md"
+      - "books/[book-name]/story-state-tracker.md"
+      - "books/[book-name]/40-chapter-beat-sheet.md"
+      - "books/[book-name]/character-profiles/"
+      - "books/[book-name]/metadata.yaml"
+    process:
+      - "Create book folder structure"
+      - "Expand character archetypes into full profiles"
+      - "Map 8 sequences to 40 chapters"
+      - "Create detailed beat sheet"
+      - "Plan clue planting timeline (min 12 clues)"
+      - "Plan red herring timeline (min 3)"
+      - "Initialize story state tracker"
+      - "Generate relationship web"
+      - "Create knowledge matrix"
+    estimated_time: "5-10 minutes"
+
+  stage_3_chapter_drafting:
+    id: "chapter_drafting"
+    name: "Chapter Drafting (Batches 1-20)"
+    script: "scripts/draft-chapters.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "Draft chapters 1-20 in batches of 2-3 chapters"
+    batch_size: "2-3 chapters"
+    total_batches: "7-10 batches"
+    inputs:
+      - "story-bible.md"
+      - "story-state-tracker.md (current)"
+      - "40-chapter-beat-sheet.md"
+      - "character-profiles/"
+    outputs:
+      - "books/[book-name]/manuscript/chapter-01.md through chapter-20.md"
+      - "updated story-state-tracker.md after each batch"
+    process:
+      - "Load current story state"
+      - "Load beat requirements for next 2-3 chapters"
+      - "Apply POV configuration"
+      - "Draft chapters with proper voice"
+      - "Ensure chapter-end hooks"
+      - "Plant clues per timeline"
+      - "Update story state tracker"
+      - "Repeat for next batch"
+    calls_after_each_batch: "scripts/update-story-state.py"
+    estimated_time: "30-60 minutes"
+
+  stage_4_midpoint_review:
+    id: "midpoint_review"
+    name: "Midpoint Review & Revision"
+    script: "scripts/midpoint-review.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "Comprehensive review at chapter 20 with automated revisions"
+    trigger: "after chapter 20 completion"
+    inputs:
+      - "chapters 1-20"
+      - "story-bible.md"
+      - "story-state-tracker.md"
+      - "40-chapter-beat-sheet.md"
+    outputs:
+      - "midpoint-revision-notes.md"
+      - "revised chapters (if needed)"
+      - "updated story-state-tracker.md"
+    review_checklist:
+      narrative_consistency:
+        - "Plot logic check"
+        - "Timeline continuity"
+        - "Character motivation consistency"
+      pov_consistency:
+        - "Voice consistency for each POV"
+        - "Proper chapter distribution (if dual POV)"
+        - "No head-hopping"
+      tension_curve:
+        - "Verify tension escalation matches config"
+        - "Chapter-end hooks present"
+        - "Complications every 2-3 chapters"
+      clue_placement:
+        - "Verify clues planted per timeline"
+        - "Check red herrings active"
+        - "Foreshadowing in place"
+      character_consistency:
+        - "Character behavior matches profiles"
+        - "Relationship dynamics tracking properly"
+        - "Knowledge matrix accurate"
+    revision_process:
+      - "Generate revision notes"
+      - "Apply micro-revisions automatically"
+      - "Update story state tracker"
+      - "Flag any major issues for post-draft review"
+    estimated_time: "15-30 minutes"
+
+  stage_5_chapter_drafting_continued:
+    id: "chapter_drafting_21_40"
+    name: "Chapter Drafting (Batches 21-40)"
+    script: "scripts/draft-chapters.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "Draft chapters 21-40 in batches of 2-3 chapters"
+    batch_size: "2-3 chapters"
+    total_batches: "7-10 batches"
+    inputs:
+      - "story-bible.md"
+      - "story-state-tracker.md (current)"
+      - "40-chapter-beat-sheet.md"
+      - "chapters 1-20 (for continuity)"
+    outputs:
+      - "books/[book-name]/manuscript/chapter-21.md through chapter-40.md"
+      - "updated story-state-tracker.md after each batch"
+    special_attention:
+      - "Sequence 7 (chapters 31-37): Climax escalation"
+      - "Chapter 34-36: Major Twist #2"
+      - "Chapter 40: Optional Twist #3 / epilogue sting"
+    estimated_time: "30-60 minutes"
+
+  stage_6_final_review:
+    id: "final_review"
+    name: "Final Comprehensive Review"
+    script: "scripts/final-review.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "End-to-end review of complete 40-chapter manuscript"
+    trigger: "after chapter 40 completion"
+    inputs:
+      - "all 40 chapters"
+      - "story-bible.md"
+      - "story-state-tracker.md"
+      - "clue-payoff-tracker.md"
+    outputs:
+      - "final-revision-notes.md"
+      - "revised complete manuscript"
+      - "continuity-check-report.md"
+    review_checklist:
+      plot_completion:
+        - "All clues paid off"
+        - "No plot holes"
+        - "All questions answered (or deliberately left open)"
+        - "Central mystery resolved"
+      character_arcs:
+        - "Protagonist arc complete"
+        - "Antagonist arc complete"
+        - "Secondary character arcs resolved"
+      timeline_continuity:
+        - "No timeline contradictions"
+        - "Consistent day/night cycles"
+        - "Travel time realistic"
+      tension_curve:
+        - "Proper escalation through all 8 sequences"
+        - "Midpoint twist impactful (chapter 20)"
+        - "Climax twist impactful (chapters 34-36)"
+        - "Epilogue sting effective (if present)"
+      twist_effectiveness:
+        - "Twist #1 setup and payoff"
+        - "Twist #2 setup and payoff"
+        - "Twist #3 setup and payoff (if present)"
+        - "Foreshadowing present but not obvious"
+      voice_consistency:
+        - "POV voice consistent throughout"
+        - "Character speech patterns consistent"
+        - "Tone maintained"
+    revision_process:
+      - "Generate comprehensive revision list"
+      - "Apply revisions chapter by chapter"
+      - "Re-check after revisions"
+      - "Generate final report"
+    estimated_time: "30-45 minutes"
+
+  stage_7_humanization:
+    id: "humanization_pass"
+    name: "Humanization Pass"
+    script: "scripts/humanization-pass.py"
+    automation_level: "fully automated"
+    user_involvement: "none"
+    description: "Remove AI tells and add human variation"
+    inputs:
+      - "complete revised manuscript (all 40 chapters)"
+      - "character-profiles/"
+    outputs:
+      - "humanized manuscript (all 40 chapters)"
+      - "humanization-report.md"
+    humanization_techniques:
+      sentence_variation:
+        - "Vary sentence length (short, medium, long)"
+        - "Mix sentence structures"
+        - "Add fragments where natural"
+        - "Break up overly smooth prose"
+      character_voice:
+        - "Inject character-specific speech patterns"
+        - "Add verbal tics and quirks"
+        - "Ensure distinct dialogue voices"
+        - "Regional/class markers if appropriate"
+      sensory_grounding:
+        - "Add specific sensory details"
+        - "Include 'lived experience' moments"
+        - "Physical reactions and body language"
+        - "Environmental awareness"
+      remove_ai_tells:
+        - "Eliminate repetitive phrases"
+        - "Remove overly formal constructions"
+        - "Cut purple prose"
+        - "Avoid AI clichés"
+      strategic_imperfection:
+        - "Allow some loose ends (if appropriate)"
+        - "Natural conversation interruptions"
+        - "Realistic memory gaps"
+        - "Human inconsistencies in recall"
+      emotional_depth:
+        - "Ensure emotional authenticity"
+        - "Avoid melodrama"
+        - "Show don't tell (where appropriate)"
+        - "Grounded psychological realism"
+    estimated_time: "20-40 minutes"
+
+  stage_8_user_review:
+    id: "acquisition_editor_review"
+    name: "User Review (Acquisition Editor Mode)"
+    automation_level: "manual"
+    user_involvement: "full"
+    description: "User reviews complete manuscript as acquisition editor"
+    inputs:
+      - "complete humanized manuscript"
+      - "story-bible.md"
+      - "all reports and notes"
+    user_actions:
+      - "Read manuscript"
+      - "Provide revision requests"
+      - "Approve for final output"
+      - "Request re-generation if needed"
+    outputs:
+      - "user feedback"
+      - "revision requests"
+      - "final approval"
+
+state_tracking:
+  story_state_updates:
+    frequency: "after every 2-3 chapter batch"
+    script: "scripts/update-story-state.py"
+    updates:
+      - "Character psychological states"
+      - "Knowledge matrix (who knows what)"
+      - "Clues planted/paid off"
+      - "Red herrings active"
+      - "Relationship dynamics"
+      - "Tension levels"
+      - "Continuity flags"
+
+  version_control:
+    enabled: true
+    strategy: "chapter snapshots"
+    saves:
+      - "After each chapter batch"
+      - "After midpoint review"
+      - "After final review"
+      - "After humanization"
+
+error_handling:
+  continuity_errors:
+    detection: "automated during reviews"
+    resolution: "automated micro-revisions"
+    escalation: "flag for user if major"
+
+  plot_holes:
+    detection: "final review stage"
+    resolution: "automated patching where possible"
+    escalation: "flag for user if structural"
+
+  character_inconsistency:
+    detection: "story state tracker + reviews"
+    resolution: "automated corrections"
+    escalation: "flag if affects major arc"
+
+timing_estimates:
+  total_workflow_time: "2-4 hours"
+  breakdown:
+    premise_generation: "2-5 minutes"
+    bible_construction: "5-10 minutes"
+    chapter_drafting_1_20: "30-60 minutes"
+    midpoint_review: "15-30 minutes"
+    chapter_drafting_21_40: "30-60 minutes"
+    final_review: "30-45 minutes"
+    humanization_pass: "20-40 minutes"
+    user_review: "variable (user dependent)"
+
+output_quality_metrics:
+  target_word_count: "80,000-100,000 words"
+  average_chapter_length: "2,000-2,500 words"
+  clues_planted: "minimum 12"
+  red_herrings: "minimum 3"
+  plot_holes: "0"
+  continuity_errors: "0"
+  pov_consistency: "100%"
+  tension_curve_accuracy: "matches config specifications"
