@@ -152,13 +152,155 @@ The external threats matter only insofar as they force internal reckonings.
 
 ---
 
+## Repetition Avoidance: Pre-Chapter Analysis
+
+**CRITICAL AUTOMATION STEP**: Before drafting any chapter, the system MUST analyze all previously written text and create a repetition-avoidance plan.
+
+### The Problem
+
+AI-generated prose falls into predictable patterns:
+- Overused physical gestures (throat tightening, breath catching, jaw clenching)
+- Repetitive emotional language (heart pounding, stomach churning)
+- Identical sentence structures
+- Recycled sensory details and metaphors
+
+A 40-chapter manuscript written without variation awareness becomes monotonous and reveals its AI origins.
+
+### The Solution: Pre-Writing Analysis Protocol
+
+**Before writing each chapter, the system must:**
+
+1. **Analyze the text above** (all previous chapters)
+2. **Create a brief repetition-avoidance plan**
+3. **Execute the chapter using that plan**
+
+### Repetition-Avoidance Plan Components
+
+The plan must identify and document:
+
+#### 1. Overused Gestures or Emotional Language to Avoid
+
+**Scan for patterns such as:**
+- Physical reactions (e.g., "her stomach dropped," "his jaw tightened," "breath caught")
+- Emotional descriptors (e.g., "anxiety spiked," "dread pooled," "fear crept")
+- Character tics that have appeared more than 2-3 times
+- Dialogue tags beyond "said/asked" that are becoming repetitive
+
+**Output format:**
+```
+AVOID IN THIS CHAPTER:
+- "stomach dropped/churned/tightened" (used 7x in Ch 1-5)
+- Characters "swallowing hard" (used 5x)
+- "Blood ran cold" variations (used 3x)
+```
+
+#### 2. Sentence Patterns That Should Vary
+
+**Identify structural repetition:**
+- Chapters that start the same way (e.g., always waking up, always with dialogue)
+- Overuse of short declarative sentences
+- Overuse of fragments for emphasis
+- Repetitive paragraph lengths (all short or all long)
+- Overreliance on rhetorical questions
+
+**Output format:**
+```
+VARY SENTENCE PATTERNS:
+- Last 3 chapters started with dialogue → start with action/internal thought
+- Chapter 4 used 15 fragments for tension → limit fragments to 5 max
+- Overusing: "She knew X. But Y." pattern → find new contrast structures
+```
+
+#### 3. New Sensory Cues, Metaphors, and Emotional Angles to Introduce
+
+**Actively plan freshness:**
+- What senses haven't been used recently? (taste, smell, temperature, texture)
+- What new metaphors fit this chapter's emotional tone?
+- What emotional angle hasn't been explored? (shame vs. fear, numbness vs. panic)
+- What new physical settings allow new sensory vocabulary?
+
+**Output format:**
+```
+INTRODUCE IN THIS CHAPTER:
+- Sensory: Use smell (coffee, perfume, decay) — underused so far
+- Metaphor: Explore "water/drowning" imagery (fresh angle for overwhelm)
+- Emotional: Focus on humiliation rather than fear (new territory)
+- Physical: Kitchen setting → temperature, textures, sounds of cooking
+```
+
+### Example Pre-Chapter Analysis Output
+
+```markdown
+## Chapter 6 Repetition-Avoidance Plan
+
+**ANALYZE CHAPTERS 1-5:**
+
+AVOID:
+- "Throat tightened" (6x), "stomach dropped" (4x), "breath caught" (5x)
+- Characters biting lips, clenching fists (overused physical tells)
+- "She told herself" internal thought pattern (8x)
+
+VARY:
+- Last 2 chapters started with Emma waking → start mid-scene
+- Overusing short paragraphs for tension → add 2-3 longer flowing paragraphs
+- Too many rhetorical questions in Ch 5 → limit to 1-2 max
+
+INTRODUCE:
+- Sensory: Taste (wine, food textures), temperature (cold hands, hot room)
+- Metaphor: "Glass/shattering" imagery for relationship fracture
+- Emotional: Focus on resentment building, not just fear/anxiety
+- Physical: Dinner party setting → sounds of conversation, clinking glasses
+```
+
+### Implementation in NPE Workflow
+
+**This analysis must happen:**
+
+1. **Before every chapter draft** (not after, not during revision)
+2. **As the first step** in the chapter generation process
+3. **Documented in the chapter file** as a comment block or separate analysis file
+4. **Referenced actively** during the writing process
+
+**Integration with draft-chapters.py:**
+
+```python
+# Pseudo-code for automation
+def draft_chapter(chapter_num, previous_chapters):
+    # Step 1: Analyze previous text
+    repetition_analysis = analyze_repetition(previous_chapters)
+
+    # Step 2: Create avoidance plan
+    avoidance_plan = create_avoidance_plan(repetition_analysis)
+
+    # Step 3: Draft chapter with plan as constraint
+    chapter_text = generate_chapter(
+        chapter_num=chapter_num,
+        story_context=get_story_context(),
+        avoidance_plan=avoidance_plan  # ← Key constraint
+    )
+
+    return chapter_text
+```
+
+### Quality Metrics
+
+After implementing this system, manuscripts should show:
+- **Gesture diversity**: No single physical reaction used more than 5x across 40 chapters
+- **Sentence variety**: Mix of short/long, simple/complex, declarative/questions
+- **Sensory richness**: All 5 senses engaged across the book, not just sight/sound
+- **Emotional range**: 10+ distinct emotional states explored (not just fear/anxiety)
+- **Metaphor freshness**: No metaphor system (darkness, water, etc.) dominates excessively
+
+---
+
 ## Implementation Notes for NPE System
 
 When generating chapters:
-1. **Hooks**: Review the opening paragraph of each chapter against the DO/DON'T criteria
-2. **Cliffhangers**: Track cliffhanger types across chapters to ensure variety
-3. **Clichés**: Cross-reference plot elements against the common sins list
-4. **Emotional stakes**: Always tie tension to character relationships and psychology, not just plot mechanics
+1. **Pre-Chapter Analysis**: ALWAYS run repetition-avoidance analysis before drafting (see section above)
+2. **Hooks**: Review the opening paragraph of each chapter against the DO/DON'T criteria
+3. **Cliffhangers**: Track cliffhanger types across chapters to ensure variety
+4. **Clichés**: Cross-reference plot elements against the common sins list
+5. **Emotional stakes**: Always tie tension to character relationships and psychology, not just plot mechanics
 
 ---
 
