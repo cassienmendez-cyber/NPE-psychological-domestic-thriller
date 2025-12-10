@@ -31,6 +31,11 @@
 - **Emotional Beat:** Confusion, fear, self-doubt. Is she losing her mind like her mother did?
 - **Clues/Setup:** References to Emma's mother's dementia; David's "concerned husband" act; pills on the counter; Emma's former life as art gallery director
 - **End Hook:** Emma hides the note, then can't remember where she put it. Was it real?
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma has memory problems; she doesn't trust herself; David seems like a concerned husband; Emma's mother had dementia
+  - **Reader Should Suspect:** Something might be wrong but unsure if it's Emma's mind or something external; the note suggests danger but from who?
+  - **Must Keep Hidden:** That David is drugging her; that Rebecca existed and died suspiciously; Claire's true identity; that this is gaslighting not just illness
+  - **Misdirection:** Focus on Emma's unreliability; make David seem genuinely worried; suggest genetic dementia is the real issue
 
 ### Chapter 2 - EMMA
 - **POV:** Emma Tate
@@ -39,6 +44,11 @@
 - **Emotional Beat:** Grief for who she used to be; frustration at her own unreliability
 - **Clues/Setup:** Sister Kate calls, clearly worried but frustrated; Emma can't remember their last conversation; David monitors the call; glimpses of Claire watching
 - **End Hook:** Emma finds another note in her bathroom tile grout: "CLAIRE IS WATCHING."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma has lost significant cognitive function; she used to be competent (gallery director); Claire exists as a presence in the house
+  - **Reader Should Suspect:** Emma's condition is progressing; family is concerned; Claire might be important but unclear how
+  - **Must Keep Hidden:** Claire is documenting Emma for a secret purpose; David is controlling the narrative; the monitoring is sinister not caring
+  - **Misdirection:** Make Claire seem like just a hired caregiver; Kate's frustration suggests Emma has been "paranoid" before (David's planted narrative)
 
 ### Chapter 3 - EMMA
 - **POV:** Emma Tate
@@ -47,6 +57,11 @@
 - **Emotional Beat:** Rage at her own helplessness; suspicion of everyone around her
 - **Clues/Setup:** The house feels wrong—layout seems different than Emma remembers; Helen (mother-in-law) makes cutting remarks; Mrs. Vasquez (housekeeper) gives Emma a sympathetic look
 - **End Hook:** At dinner, David tells a story about how he and Emma met. Emma realizes she remembers it completely differently—or does she?
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma can't perform basic tasks; the house feels wrong to her; Helen is cold/hostile; Mrs. Vasquez seems sympathetic
+  - **Reader Should Suspect:** Emma's memories might be false OR the house actually changed; not sure which is real; family dynamics are tense
+  - **Must Keep Hidden:** The house HAS been subtly changed (gaslighting); Mrs. Vasquez knows the truth; Helen's true role
+  - **Misdirection:** Emma's unreliability makes reader question if house changes are real; focus on whether Emma's memories of meeting David are accurate or confused
 
 ### Chapter 4 - EMMA
 - **POV:** Emma Tate
@@ -55,6 +70,11 @@
 - **Emotional Beat:** Determination cutting through the fog; small moment of agency
 - **Clues/Setup:** Emma notices patterns—her "bad days" seem to coincide with certain meals or pills; she starts refusing some medications
 - **End Hook:** Emma wakes at 3 AM to find her bedroom door locked from the outside. She's trapped.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma is trying to fight back; she's noticed patterns with meals/pills; she's attempting to document reality
+  - **Reader Should Suspect:** The pills might be causing problems; something is wrong beyond just natural illness; Emma might be trapped
+  - **Must Keep Hidden:** That David is actively drugging her (vs. medication having side effects); that the locked door is intentional imprisonment not safety
+  - **Misdirection:** Could the pills just be having bad side effects? Is the locked door for Emma's "safety" during sleep-walking episodes? Keep it ambiguous
 
 ### Chapter 5 - EMMA
 - **POV:** Emma Tate
@@ -63,6 +83,11 @@
 - **Emotional Beat:** Terror—who is Rebecca? Why does the name feel important?
 - **Clues/Setup:** David seems genuinely concerned but also... satisfied? Emma catches Claire staring at her with an unreadable expression; photographs in the house that Emma doesn't remember seeing before
 - **End Hook:** Emma searches "Rebecca Tate" on her phone in secret. The results are devastating: David's first wife, dead five years ago in a "tragic accident."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Rebecca is David's first wife who died; Emma was screaming about her; Emma doesn't know why Rebecca matters; David had a life before Emma
+  - **Reader Should Suspect:** Rebecca's death might be connected somehow; the "tragic accident" phrasing suggests mystery; why would Emma scream about someone she doesn't know?
+  - **Must Keep Hidden:** Rebecca was murdered by David; Claire is Rebecca's sister; Rebecca died the same way Emma is being destroyed; the pattern/parallel
+  - **Misdirection:** Maybe Emma knew Rebecca before and forgot? Maybe Emma is jealous of a dead woman? Plant seeds of Emma being "unstable" about David's past
 
 ---
 
@@ -76,6 +101,11 @@
 - **Emotional Beat:** Paranoia mixed with investigative determination
 - **Clues/Setup:** Rebecca died in a car accident—but the details don't add up; Emma finds old photos of Rebecca in the attic; Rebecca looked nothing like Emma
 - **End Hook:** Emma realizes: she and Rebecca have the same "illness." The same symptoms. The same trajectory.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Rebecca's death details don't quite add up; Rebecca and Emma don't look alike; Both women had similar "symptoms"
+  - **Reader Should Suspect:** Rebecca's death might not have been an accident; there's a pattern here that seems deliberate; David might be involved
+  - **Must Keep Hidden:** That David killed Rebecca; that the "illness" was manufactured in both cases; that Claire is connected to Rebecca
+  - **Misdirection:** Could this be Emma's paranoia? Is she seeing patterns that aren't there? Maybe both women just had the same genetic condition?
 
 ### Chapter 7 - EMMA
 - **POV:** Emma Tate
@@ -84,6 +114,11 @@
 - **Emotional Beat:** Isolation—the horror of not being believed
 - **Clues/Setup:** Kate mentions Emma has made similar accusations before (about neighbors, coworkers); Emma doesn't remember this; David has been carefully building a narrative
 - **End Hook:** After Kate leaves, Emma overhears David on the phone: "The progression is faster than expected. We may need to accelerate the timeline."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma can't get anyone to believe her; David has been setting up a narrative of Emma being paranoid; Emma's "accusations" have a history
+  - **Reader Should Suspect:** David's phone call sounds sinister—but timeline for what? Medical treatment or something darker?
+  - **Must Keep Hidden:** That all of Emma's past "accusations" were actually true moments of clarity; David manufactured the "paranoid" reputation
+  - **Misdirection:** Kate's frustration makes Emma seem like the problem; reader might think Emma HAS been paranoid before; "timeline" could refer to medical care facility plans
 
 ### Chapter 8 - EMMA
 - **POV:** Emma Tate
@@ -92,6 +127,11 @@
 - **Emotional Beat:** Desperation—racing against her own deteriorating mind
 - **Clues/Setup:** Emma hides a phone (old phone she found) with voice recordings; creates a new hiding place David doesn't know about; tattoos a small mark on her wrist: "REB"
 - **End Hook:** Emma watches home videos from six months ago. She's different—sharp, articulate, confident. What happened to that person?
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma was dramatically different 6 months ago; the decline has been rapid; Emma is trying to gather evidence
+  - **Reader Should Suspect:** Six months is too fast for natural dementia progression; something changed six months ago
+  - **Must Keep Hidden:** That Emma discovered David's crimes six months ago and that's when he started drugging her aggressively
+  - **Misdirection:** Could stress have triggered rapid decline? Is Emma's evidence-gathering a sign of lucidity or paranoid delusion?
 
 ### Chapter 9 - EMMA
 - **POV:** Emma Tate
@@ -100,14 +140,24 @@
 - **Emotional Beat:** The horror of failing simple tasks; the humiliation of being discussed like she's not there
 - **Clues/Setup:** David stays in the room the entire time; Dr. Chen seems nervous, won't make eye contact with Emma; Emma notices Dr. Chen's expensive watch—new?
 - **End Hook:** In the parking lot after the appointment, Emma sees Dr. Chen and David speaking privately. An envelope changes hands. Emma has her phone—she takes a photo.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Dr. Chen seems uncomfortable; David controls the medical appointments; money/envelope exchange happens
+  - **Reader Should Suspect:** Dr. Chen might be compromised; the envelope suggests bribery or payoff; David is controlling Emma's medical narrative
+  - **Must Keep Hidden:** That Dr. Chen is actively falsifying records and prescribing drugs meant to harm Emma; full extent of the conspiracy
+  - **Misdirection:** Maybe David is paying for extra care? Private consultation fees? Keep it ambiguous whether transaction is sinister or innocent
 
 ### Chapter 10 - CLAIRE (First Claire POV - Strategic Placement)
 - **POV:** Claire Albright
-- **Scene Goal:** Reveal Claire's presence and hint at her hidden agenda
+- **Scene Goal:** Reveal Claire's presence and hint at her hidden agenda WITHOUT revealing her true identity or connection to Rebecca
 - **Conflict:** Claire observes Emma's appointment from her car; must maintain cover while gathering evidence
 - **Emotional Beat:** Cold calculation mixed with unexpected pity for Emma; guilt
-- **Clues/Setup:** Claire's internal monologue reveals: she's been here 6 months; she knows more than she should; she has a storage unit full of "something"; her real name isn't Claire
-- **End Hook:** Claire writes in her private journal: "Day 187. Emma is getting worse faster than Rebecca did. I found the hidden phone. She's fighting back. This changes everything."
+- **Clues/Setup:** Claire's internal monologue reveals: she's been here 6 months with a specific purpose; she's documenting everything; she has a storage unit; her credentials might be fake
+- **End Hook:** Claire writes in her private journal: "Day 187. E is deteriorating faster than expected. I found the hidden phone. She's fighting back. This changes everything."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Claire is NOT just a caregiver; she has a hidden agenda; she's been documenting Emma deliberately; she has secrets
+  - **Reader Should Suspect:** Claire might be working WITH David OR against him (keep it ambiguous); Claire has been planted in this household for a reason; she knows more than she should
+  - **Must Keep Hidden:** That Claire is Rebecca's sister; that she knows David is a murderer; that she's here for revenge/justice; her real identity is Sarah Brennan; the storage unit contains evidence about Rebecca's death
+  - **Misdirection:** Maybe Claire is David's accomplice? Maybe she's having an affair with David and helping eliminate Emma? Maybe she's a journalist investigating? Keep her true motive mysterious; don't mention Rebecca by name in her internal thoughts yet
 
 ---
 
@@ -121,6 +171,11 @@
 - **Emotional Beat:** Betrayal—is Claire documenting to help or to condemn?
 - **Clues/Setup:** The journal is too detailed; Claire knows things she shouldn't; Emma realizes Claire has been in her room, reading her private notes
 - **End Hook:** Emma confronts Claire directly: "Who are you really? What do you want?"
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Claire has been meticulously documenting Emma; Claire has invaded Emma's privacy; Claire knows far more than a normal caregiver would
+  - **Reader Should Suspect:** Claire's documentation might be for David OR against him; Claire is definitely hiding something big
+  - **Must Keep Hidden:** Claire's true identity; that she's gathering evidence to prove David's crimes; that she's Rebecca's sister
+  - **Misdirection:** Is Claire building a case to institutionalize Emma? Is she David's spy? Or something else entirely?
 
 ### Chapter 12 - EMMA
 - **POV:** Emma Tate
@@ -129,6 +184,11 @@
 - **Emotional Beat:** Confusion—is Claire an enemy or an ally?
 - **Clues/Setup:** Claire says only: "I believe you." Two words that change everything; Claire slips Emma a note during lunch: "Check the basement."
 - **End Hook:** Emma waits until night. Unlocks the basement door. Finds Rebecca's belongings—and Rebecca's journal.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Claire believes Emma (huge shift); Claire is directing Emma to evidence; Claire seems to be an ally now; Rebecca had belongings hidden in basement
+  - **Reader Should Suspect:** Claire knows about Rebecca; Claire has been investigating; There's evidence in the basement that David doesn't know about
+  - **Must Keep Hidden:** Claire's identity as Rebecca's sister; exactly how Claire knows about the basement; Claire's full plan
+  - **Misdirection:** How does Claire know about the basement? Has she been there before? Why is she helping Emma NOW?
 
 ### Chapter 13 - EMMA
 - **POV:** Emma Tate
@@ -137,6 +197,11 @@
 - **Emotional Beat:** Horror and validation—she's not crazy; this HAS happened before
 - **Clues/Setup:** Rebecca documented everything: the drugs, the gaslighting, David's control; Rebecca knew he was going to kill her; Rebecca's final entry: "If you're reading this, I'm already dead. Don't trust—" (entry ends)
 - **End Hook:** David finds Emma in the basement. "What are you doing down here, darling?"
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Rebecca was definitely being drugged and gaslighted; Rebecca knew David would kill her; the pattern with Emma is identical; David likely killed Rebecca
+  - **Reader Should Suspect:** David is doing the same thing to Emma; this is premeditated murder; Emma is in immediate danger
+  - **Must Keep Hidden:** Claire's connection to Rebecca (save for Ch 15); Rebecca's pregnancy (save for later); that Emma also discovered financial crimes
+  - **Misdirection:** Journal entry cuts off—who was Rebecca warning about? Just David or someone else too?
 
 ### Chapter 14 - EMMA
 - **POV:** Emma Tate
@@ -145,14 +210,24 @@
 - **Emotional Beat:** Pure fear—Emma realizes David knows she's getting too close to the truth
 - **Clues/Setup:** David increases Emma's medication that night; Emma only pretends to swallow pills; Emma experiences partial clarity as drugs leave her system
 - **End Hook:** Emma wakes to find her bedroom door locked again. This time, she hears crying through the walls. Is someone else in the house?
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** David knows Emma found something; he's escalating the drugging; Emma is fighting back by not taking pills; Emma is getting clearer
+  - **Reader Should Suspect:** David is dangerous and accelerating his plan; Emma is in a race against time
+  - **Must Keep Hidden:** The full extent of what David is planning; Claire's identity (revealed next chapter); whether Emma actually has dementia or if it's all drugs
+  - **Misdirection:** The crying through walls—is it real? Is someone else trapped? Is it Emma hallucinating? Keep reader uncertain
 
 ### Chapter 15 - CLAIRE (Second Claire POV - Strategic Reveal)
-- **POV:** Claire Albright
-- **Scene Goal:** Reveal Claire's true identity
+- **POV:** Claire Albright / Sarah Brennan
+- **Scene Goal:** Reveal Claire's true identity as Rebecca's sister - MAJOR REVEAL
 - **Conflict:** Claire realizes Emma found Rebecca's journal; must decide whether to reveal herself or maintain cover
 - **Emotional Beat:** Claire's carefully constructed walls crack; grief for her sister
-- **Clues/Setup:** Claire's internal monologue reveals the truth: "Rebecca was my sister. Watching Emma go through this is like watching Rebecca die all over again."
+- **Clues/Setup:** Claire's internal monologue NOW uses Rebecca's name and reveals: "Rebecca was my sister. Watching Emma go through this is like watching Rebecca die all over again."
 - **End Hook:** Claire makes her decision. She writes Emma a note: "My real name is Sarah Brennan. Rebecca was my sister. David killed her. You're next. We need to work together."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Claire is actually Sarah, Rebecca's sister; Claire has been here seeking proof of David's crime; Claire believes David murdered Rebecca; Claire wants to help Emma
+  - **Reader Should Suspect:** Claire has been here for months with this agenda; the storage unit contains evidence about Rebecca; Claire might have her own revenge plan
+  - **Must Keep Hidden:** The full extent of evidence Claire has gathered; Rebecca's pregnancy; that David knows Claire's identity (revealed Ch 20); Emma's actual dementia diagnosis; Claire's possible ulterior motives beyond justice
+  - **Misdirection:** Is Claire's help genuine or is she using Emma as bait? Can Emma trust Claire or is this another manipulation?
 
 ---
 
@@ -166,6 +241,11 @@
 - **Emotional Beat:** Desperate hope versus paranoia
 - **Clues/Setup:** Emma tests Claire with questions only Rebecca's sister would know; Claire passes; Emma shows Claire the hidden evidence she's gathered
 - **End Hook:** Together they realize: they have pieces of proof but nothing complete. They need David's computer files.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma and Claire are now allied; they both have partial evidence; they need computer files to complete the case; they're planning to go to police
+  - **Reader Should Suspect:** This alliance might be dangerous; David might find out; they're taking huge risks
+  - **Must Keep Hidden:** That David already knows Claire's identity (revealed Ch 20); Emma's dementia diagnosis; the full extent of David's surveillance
+  - **Misdirection:** Reader thinks Emma and Claire are outsmarting David; build false sense of hope before midpoint twist
 
 ### Chapter 17 - EMMA
 - **POV:** Emma Tate
@@ -174,6 +254,11 @@
 - **Emotional Beat:** First moment of true alliance; Emma feels less alone
 - **Clues/Setup:** Mrs. Vasquez (housekeeper) gives them a key with no explanation—she knows; Helen (mother-in-law) is the wild card; James (business partner) is visiting this week
 - **End Hook:** They set the plan for the dinner party. While David entertains James, they'll break into his office.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Mrs. Vasquez is secretly helping them; Helen's loyalty is uncertain; James might be an ally; they have a plan for the break-in
+  - **Reader Should Suspect:** The plan could go wrong; someone might catch them; James might notice something
+  - **Must Keep Hidden:** That David knows about their alliance; that the house has surveillance; James's true role; Mrs. Vasquez's full knowledge
+  - **Misdirection:** Make the plan seem solid; reader should feel tension but also hope it will work
 
 ### Chapter 18 - CLAIRE (Third Claire POV - Action/Tension)
 - **POV:** Claire Albright
@@ -182,6 +267,11 @@
 - **Emotional Beat:** Adrenaline, fear of discovery, fierce determination
 - **Clues/Setup:** Claire finds: falsified medical records, life insurance policies, financial documents showing David has been embezzling from Emma's trust fund, photos of surveillance equipment
 - **End Hook:** Claire hears footsteps on the stairs. David is coming. She's still in his office.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** David has been embezzling Emma's money; medical records are falsified; there's surveillance equipment; David has been planning this methodically; Claire is about to be caught
+  - **Reader Should Suspect:** This is about money AND control; David has multiple motives; Claire might be caught
+  - **Must Keep Hidden:** That David is allowing this to happen/knows; full extent of surveillance; that he's been watching them the whole time; Rebecca's pregnancy
+  - **Misdirection:** Build suspense around "will Claire escape?" when actually David knows she's there
 
 ### Chapter 19 - EMMA
 - **POV:** Emma Tate
@@ -190,15 +280,25 @@
 - **Emotional Beat:** Protective courage—Emma pretends to have a violent "episode"
 - **Clues/Setup:** Emma's "episode" is calculated; she uses everyone's expectations against them; James sees through it and looks at Emma with new understanding
 - **End Hook:** David returns to tend to Emma. Crisis averted. But James is watching them all with suspicion now.
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** Emma used her "unreliability" as a weapon; she's more in control than she appears; James suspects something; Claire presumably escaped
+  - **Reader Should Suspect:** James might help them; David might know more than he's showing; the plan worked but something feels off
+  - **Must Keep Hidden:** That David knew the whole time; his endgame for this confrontation; James's actual allegiance
+  - **Misdirection:** Reader thinks they got away with it; build false relief before twist
 
 ### Chapter 20 - EMMA → **MIDPOINT TWIST #1**
 - **POV:** Emma Tate
-- **Scene Goal:** Emma and Claire regroup—but David knows more than they thought
+- **Scene Goal:** Emma and Claire regroup—but David reveals he knew everything
 - **Conflict:** Claire shows Emma what she found; they think they have the advantage
 - **Emotional Beat:** Brief moment of triumph before the rug is pulled out
 - **Clues/Setup:** They have evidence; they plan to go to police; they think they're winning
 - **MIDPOINT TWIST:** David confronts them both. "Did you really think I didn't know? Sarah Brennan, Rebecca's pathetic little sister. I've been watching you both from the moment you walked through my door. Every move. Every whisper. Every plan."
 - **End Hook:** David locks them in the house. All exits sealed. "No one leaves until this is resolved. One way or another."
+- **READER KNOWLEDGE CONTROL:**
+  - **Reader Should Know:** David has known Claire's identity the ENTIRE TIME; he's been watching everything; he allowed them to find evidence; they were never in control; David has surveillance everywhere; they're now prisoners
+  - **Reader Should Suspect:** David has been playing a deeper game; he might have a plan to kill them both; the evidence might be useless if they can't escape
+  - **Must Keep Hidden:** David's exact endgame; whether he knows about the storage unit; Emma's dementia; Rebecca's pregnancy; Helen's eventual betrayal of David; how they'll escape
+  - **Misdirection:** Make it seem hopeless; reader should fear David is unstoppable
 
 ---
 
